@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 dotenv = "0.15.0"
 futures = "0.1"
+reqwest = { version = "0.10", features = ["blocking", "json"] }
 telebot = "0.3.1"
