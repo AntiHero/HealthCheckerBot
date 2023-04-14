@@ -2,9 +2,8 @@ use dotenv::dotenv;
 use futures::stream::Stream;
 use reqwest::blocking::Client;
 use std::env;
-use telebot::Bot;
-
 use telebot::functions::*;
+use telebot::Bot;
 
 fn main() {
     // Load the environment variables from the .env file
